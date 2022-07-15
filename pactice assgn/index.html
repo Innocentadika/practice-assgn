@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Course Registration Form</title>
+<link href="style.css" rel="stylesheet"/> 
+    </head>
+    <body>
+        <form method="post" action="index.html">
+        <h1><strong>Online Course Registration Form</strong></h1>
+        <label for="Surname">Surname:</label>
+        <input type="text" name="Surname" id="Surname" maxlength="15" minlength="3"required/><br>
+        <label for="First name">Firstname:</label>
+        <input type="text" name="Firstname" id="First name" maxlength="15" minlength="3"required/><br>
+        <label for="Midle name">Midlename:</label>
+        <input type="text" name="Midlename" id="Midle name" maxlength="15" minlength="3"required/><br>
+        <p>Select the level of Course you are applying for:</p>
+        <input type="radio" name="Certificate">Certificate</input>
+        <input type="radio" name="Diploma">Diploma</input>
+        <input type="radio" name="Degree">Degree</input>
+
+        <p>Select the Course you would like to purse</p>
+        <select name="course" id="course">
+            <option value="Computer Science">Computer Science</option>
+            <option value="Information Technology">Information Technology</option>
+            <option value="Electrical Engineering">Electrical Engineering</option>
+            <option value="Mechanical Engineering">Mechanical Engineering</option>
+        </select><br>
+<input type="submit" value="Send">
+</form>
+</body>
+</html>
